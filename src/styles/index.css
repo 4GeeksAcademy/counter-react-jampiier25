@@ -9,3 +9,22 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.Counter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    flex-direction: row-reverse; 
+  }
+
+.calendar {
+    margin-left: 20px;
+    font-size: 1.5rem;
+  }
+  
+  .one, .two, .three, .four, .five, .six{
+    margin: 0 5px;
+    width: 40px; 
+    height: 60px;  
+   
+  }
